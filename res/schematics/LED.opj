@@ -1,0 +1,42 @@
+(ExpressProject "LED"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\led.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "vicent")
+  (PartMRUSelector
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74LS138
+      (FullPartName "74LS138.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "F:\Cadence\SPB_17.0\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "1427 534")
+        (Zoom "348")
+        (Occurrence "/"))
+      (Path "H:\2015PROJECT\LED\LED.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
