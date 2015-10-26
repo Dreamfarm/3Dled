@@ -12,6 +12,27 @@
   (Folder "Referenced Projects")
   (MPSSessionName "vicent")
   (PartMRUSelector
+    (GND
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74ALS573
+      (FullPartName "74ALS573.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\BUSDRIVERTRANSCEIVER.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -23,7 +44,10 @@
   (LastUsedLibraryBrowseDirectory "F:\Cadence\SPB_17.0\tools\capture\library")
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Design Resources" ".\led.dsn")
+      (Path "Design Resources" ".\led.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\led.dsn" "SCHEMATIC1" "3Dled"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -33,10 +57,30 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "1427 534")
-        (Zoom "348")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1662 26 485")
+        (Scroll "129 138")
+        (Zoom "178")
         (Occurrence "/"))
-      (Path "H:\2015PROJECT\LED\LED.DSN")
+      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "LED_line"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1446 104 580")
+        (Scroll "-215 0")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LED_plane"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 208 1550 208 684")
+        (Scroll "-327 -5")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3Dled"))))
