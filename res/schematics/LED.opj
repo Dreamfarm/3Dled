@@ -15,6 +15,17 @@
     (GND
       (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (VCC
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N DGS"
+      (FullPartName "MOSFET N DGS.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (MOSFET_DP_DGS
+      (FullPartName "MOSFET_DP_DGS.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
     (74ALS573
       (FullPartName "74ALS573.Normal")
       (LibraryName
@@ -29,9 +40,6 @@
     (R
       (FullPartName "R.Normal")
       (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "F:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
@@ -52,15 +60,5 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1238 104 461")
-        (Scroll "0 0")
-        (Zoom "132")
-        (Occurrence "/"))
-      (Path "F:\µçÂ·\3DLED\RES\SCHEMATICS\LED.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "3Dled"))))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))))
