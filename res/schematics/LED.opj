@@ -57,30 +57,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1662 26 485")
-        (Scroll "129 138")
-        (Zoom "178")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1238 104 461")
+        (Scroll "0 0")
+        (Zoom "132")
         (Occurrence "/"))
-      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "LED_line"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1446 104 580")
-        (Scroll "-215 0")
-        (Zoom "89")
-        (Occurrence "/"))
-      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "LED_plane"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 208 1550 208 684")
-        (Scroll "-327 -5")
-        (Zoom "89")
-        (Occurrence "/"))
-      (Path "H:\2015PROJECT\3DLED\RES\SCHEMATICS\LED.DSN")
+      (Path "F:\µçÂ·\3DLED\RES\SCHEMATICS\LED.DSN")
       (Schematic "SCHEMATIC1")
       (Page "3Dled"))))
